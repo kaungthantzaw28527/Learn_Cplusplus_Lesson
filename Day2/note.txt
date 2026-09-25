@@ -1,0 +1,33 @@
+DATA Types
+----------
+
+Data type ဆိုတာကိုဘာကြောင့်သတ်မှတ်သလည်းဆိုရင်သိမ်းဆည်းမယ့် data အမျိးအစားတွေကိုအုပ်စုခွဲနိုင်ဖို့အတွက်ဖြစ်ပါတယ်
+
+Integer Types(ကိန်းပြည့်)
++++++++++++++++++++++
+
+int - integer (4bytes)
+short - integer ထက်ပိုသေးတယ် 2 bytes အထိသူလက်ခံ
+long - 8 bytes အထိသူလက်ခံတယ်ပိုကြီးတဲ့ integer 
+long long - အကြီးဆုံး integer
+
+Float Types(ဒဿမကိန်း)
++++++++++++++++++++++
+
+float - single precision(4bytes)
+double - double precision(bytes)
+long double - extended precision(8,12 or 16 bytes)
+
+Character Types(အက္ခရာများ)
+
+char - single character(1 byte)
+
+wchar_t - wide character(2 or 4 bytes)
+
+
+Boolean Type
+
+bool - true or false (1byte)
+
+
+
