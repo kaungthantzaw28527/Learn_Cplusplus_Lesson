@@ -1,0 +1,7 @@
+#include<iostream> Input/Output တွေကိုအသုံးပြုလို့ရအောင်လို့ သုံးနိုင်အောင်လို့ Header file ခေါ်ထားတာဖြစ်ပါတယ်
+
+using namespace std; Standard Library အသုံးပြုသည့်အခါ ရှေ့မှ std:: ဟု မရေးရအောင်ကြေငြာခြင်းဖြစ်ပါတယ် "std::cout ဆိုပြီးထုတ်မရေးရအောင်လို့ပါ"
+
+int main(){ }program စအလုပ်လုပ်ဖို့အတွက်ရေးတဲ့ Main function
+
+cout<<"Hello World!"; display ပေါ်မှာ text ပေါ်အောင် output ထုတ်ပြပေးတာ
