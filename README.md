@@ -1,6 +1,6 @@
 (MM Version)
 # Learning C++
-++++++++++++++
+==============
 
 ဒီ Repository က C++ ကိုလေ့လာခြင်သူတွေအတွက်ရောကျွန်တော့်ကိုယ်တိုင်ကလည်း
 C++ ကိုပြန်ပြီးလေ့လာရင်းနဲ့ရေးသားလေ့ကျင့်ထားတဲ့ Repo တစ်ခုဘဲဖြစ်ပါတယ်။
@@ -41,6 +41,14 @@ C++ ဟာ ပေါ့ပါးမြန်ဆန်တဲ့ Programming Langu
 * **macOS:** Clang (Apple LLVM Compiler / Xcode Command Line Tools)
 * **Linux:** GCC (GNU Compiler Collection)
 
+## 📚 References Books
+
+ကျွန်တော်ဒီ C++ ကိုလေ့လာခဲ့ရာမှာကျွန်တော်ကိုယ်တိုင်ဖတ်ခဲ့ပြီးအခုပြန်လေ့ကျင့်တော့လည်းအဲ့စာအုပ်ထဲကနေပြန်လည်လေ့လာခဲ့ပါတယ်အခုကျွန်တော်ရေးနေတဲ့ C++ နဲ့ပက်သက်တာတော်တော်များများကလည်းအဲ့စာအုပ်ထဲကအကြောင်းအရာတွေဖတ်ပြီးရေးလိုက်လေ့ကျင့်လိုက်လိုအပ်တာရှာဖြည့်လိုက်လေ့ကျင့်လိုက်လုပ်ခဲ့တာပါ
+ဒါကတော့ကျွန်တော်ဖတ်ခဲ့တဲ့စာအုပ်ကိုရခဲ့တဲ့နေရာပါ https://github.com/tingmai/cpp_manual_book_2025
+
+* **[C++ PROGRAMMING FUNDAMENTALS]** - *[Tin Mai Zaw]*
+	* *မှတ်ချက်:* ဒီ စာအုပ်ထဲက C++ Concepts များနှင့် လေ့ကျင့်ခန်းများကို အခြေခံ၍ ဒီ Repository ထဲတွင်လည်း ရေးသား လေ့ကျင့်ထားခြင်းတွေရှိပါတယ်။
+	
 (Eng Version)
 # Learning C++
 ==============
@@ -83,6 +91,15 @@ Since C++ is a lightweight and high-performance programming language, it does no
 * **Windows:** MinGW-w64 (GCC) or MSVC (Microsoft Visual C++)
 * **macOS:** Clang (Apple LLVM Compiler / Xcode Command Line Tools)
 * **Linux:** GCC (GNU Compiler Collection)
+
+## 📚 Reference Books
+
+I personally read this book when I first started learning C++, and I referenced it again during my current revision. Most of the C++ concepts and code I am writing in this repository come from studying the book, practicing its exercises, and supplementing with additional research whenever needed.
+
+Here is where I found the book: https://github.com/tingmai/cpp_manual_book_2025
+
+* **C++ PROGRAMMING FUNDAMENTALS** - *Tin Mai Zaw*
+    * *Note:* Some of the C++ concepts and exercises in this repository are directly based on and practiced from this book.
 
 
 
