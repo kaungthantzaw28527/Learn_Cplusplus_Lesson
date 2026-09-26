@@ -29,5 +29,37 @@ Boolean Type
 
 bool - true or false (1byte)
 
+Suffix
+------
+
+Integer Suffixes
+++++++++++++++++
+Long				-	L/l
+Long Long			-	LL/ll
+unsigned int		-	U/u
+unsigned long		-	UL/ul
+unsigned long long	-	ULL/ull
+
+Floating Suffixes
++++++++++++++++++
+float		-	F/f
+long double	-	L/l
+
+#suffix မပါရင် double
+
+Character & String Prefixes
++++++++++++++++++++++++++++
+wchar_t		-	L
+char(UTF-8)	-	u8
+char16_t	-	u
+char32_t	-	U
+
+##Boolean Type မှာ Suffix/Prefix မလိုအပ်ပါ။ ဘာကြောင့်လည်းဆိုတော့ bool တန်ဖိုးကို true ဒါမှမဟုတ် false နဲ့ Keywords သီးသန့် သတ်မှတ်ထားပေးသောကြောင့်ဖြစ်ပါတယ်။
+
+
+
+
+
+
 
 
