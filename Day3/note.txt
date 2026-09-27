@@ -1,0 +1,98 @@
+Variable
+========
+
+Variable တစ်ခုဆိုတာက data တစ်ခုကိုသိမ်းဆည်းဖို့အတွက်နေရာတစ်ခုဖြစ်ပြီးတော့သူ့ကိုသုံးမယ်ဆိုရင် declare လုပ်ဖို့လိုတယ်
+ကြေငြာပေးဖို့လိုပါတယ်။
+
+Declaration Syntax
+++++++++++++++++++
+
+int age;  //integer variable
+double salary; //decimal variable
+char grade; //character variable
+string name; //string variable
+
+Variable Initialization
++++++++++++++++++++++++++
+variable တန်ဖိုးသတ်မှတ်ခြင်း
+
+int count = 10;
+double pi = 3.14159;
+char letter = 'A';
+string greeting = "Hello"
+
+C++ မှာအဓိကအသုံးတဲ့ Variable type တွေက
+* **int,double/float,char,string,bool
+
+Naming Rules 
+++++++++++++
+
+Variable များကို အမည်ပေးတဲ့အခါမှာ လိုက်နာရမည့် အခြေခံစည်းမျဉ်းများ ရှိပါတယ်။
+1. Letter,Digit,Underscore ကိုသုံးရမယ်
+2. ကိန်းဂဏန်း digit တွေနဲ့စလို့မရဘူး
+3. Case-Sensitive ဖြစ်သည် (အက္ခရာ အကြီး/အသေး ကွဲပြားမှုရှိတယ်)
+4. Space နဲ့ Special Characters တွေသုံးလို့မရဘူး
+5. Reserved Keywords သုံးလို့မရဘူး (Programming Language ရဲ့ သီးသန့်စကားလုံးများ)
+
+Variable Naming Conventions
++++++++++++++++++++++++++++
+
+1. Camel Case(Lower Camel Case)
+-------------------------------
+
+ပထမဆုံးစကားတွဲကိုစာလုံးအသေးနဲ့ရေးပြီးနောက်ဆက်တွဲစကားလုံးရဲ့ပထမစာလုံးကိုအကြီးနဲရေးတာမျိုးပေါ့
+ဥပမာ -
+
+int studentAge = 20;
+string userFirstName = "Aung";
+double totalItemPrice = 150.50;
+bool isPassed = true;
+
+2.Pascal Case (Upper Camel Case)
+--------------------------------
+စကားလုံး တိုင်း၏ ပထမစာလုံးကို စာလုံးအကြီး (Capital Letter) ဖြင့် ရေးရတာမျိုးပေါ့
+
+ဥပမာ -
+
+class StudentInformation {
+    // class code
+};
+
+struct Point3D {
+    float x, y, z;
+};
+
+3.Snake Case
+------------
+စကားလုံး အားလုံးကို စာလုံးအသေး (Lowercase) ဖြင့်သာ ရေးပြီး စကားလုံး ကြားတွင် Underscore (_) ဖြင့် ပိုင်းရေးတာမျိုးကိုဆိုလိုခြင်းဖြစ်ပါတယ်။
+
+ဥပမာ -
+
+int student_age = 20;
+double item_price = 150.50;
+string user_first_name = "Aung";
+bool is_passed = true;
+
+4.Screaming Snake Case
+----------------------
+စကားလုံး အားလုံးကို စာလုံးအကြီး (Uppercase) ဖြင့် ရေးပြီး Underscore (_) ဖြင့်ပိုင်းရေးတာမျိုးကိုဆိုလိုရင်းဖြစ်ပါတယ်။
+
+
+ဥပမာ -
+
+const double PI_VALUE = 3.14159265;
+const int MAX_BUFFER_SIZE = 1024;
+constexpr int DAYS_IN_WEEK = 7;
+‌
+
+# ##program note
+#include <string> တစ်ခုထပ်တိုးရေးထားပါတယ်သူက 
+string ဆိုတာ စာသား (Text / String Data Type) တွေကို စနစ်တကျ ကိုင်တွယ် အသုံးပြုနိုင်အောင် ပြုလုပ်ပေးထားတဲ့ Library ဖြစ်ပါတယ်။
+ဘာအတွက်သုံးသလည်းဆိုရင် text တစ်လုံးမကပါတဲ့စာသားတွေကို ဥပမာ - အမည်တွေ၊လိပ်စာတွေ အဲ့တာမျိုးတွေကို Variable ထဲ သိမ်းဆည်းဖို့နဲ့
+အဲ့စာသားတွေကိုပြုပြင်ပြောင်းလဲဖို့အတွက်ဘဲဖြစ်ပါတယ်။
+
+return 0; ဆိုတာက Main Function တစ်ခုလုံးပြီးသွားတဲ့အချိန်မှာဘာ error မှမရှိဘဲပြီးစီးခဲ့တယ်အောင်မြင်ခဲ့တယ်ဆိုတာကိုကွန်ပျူတာရဲ့ Os ကိုအသိပေးလိုက်တာဖြစ်ပါတယ်။
+သူ့ကိုထည့်ရေးတာနဲ့မထည့်ရေးတာဘာကွာလည်းဆိုရင်တော့ C++ ကို 98 ခုနှစ်နှောင်းပိုင်းကတော့ return 0; မပါရင် Compiler က Error ပြပါတယ်။
+ဒါမယ့်အခုနောက်ပိုင်းကတော့ main() function ထဲမှာ return 0; ကို ရေးမထားခဲ့ရင် Compiler က Program ရဲ့ အဆုံးမှာ အလိုအလျောက် return 0; ကို ထည့်ပေးသွားပါတယ်။
+
+
